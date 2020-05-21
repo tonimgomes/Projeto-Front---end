@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Capacitação</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+    
+    <div id="home" class="navbar-fixed">
+    <nav class="grey darken-3">
+        <div class="nav-wrapper container">
+          <a href="#!" class="brand-logo"><img src="imagens/Imagem1.png"></a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#curiosidades">Curiosidades</a></li>
+            <li><a href="#carrosseltitulo">Fotos</a></li>
+            <li><a href="#redes">Redes Sociais</a></li>
+          </ul>
+    
+        </div>
+      </nav>
+    </div>
+    <ul class="side-nav" id="mobile-demo">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#curiosidades">Curiosidades</a></li>
+        <li><a href="#carrosseltitulo">Fotos</a></li>
+        <li><a href="#redes">Redes Sociais</a></li>
+      </ul>
+    </section>
+    <section id="imagemparallax">
+        <div class="parallax-container">
+            <div class="parallax"><img id="imgbm" src="imagens/BM.jpg"></div>
+          </div>
+    </section>
+    <section id="corpo">
+    <section id="section1">
+      <h1 id="quemsoueu">
+        Quem sou eu ?
+    </h1>
+        <p id="eup">
+            Olá, primeiramente me chamo Antônio Gomes, mais conhecido como Tonim (ou Tonhão). Tenho 19 anos e atualmente sou estudante na Universidade Federal de Itajubá, fazendo Ciências da Computação. Nasci em Barra Mansa - Rj no ano de 2000. Fiz meu ensino médio/técnico no Instituto Federal do Rio de Janeiro (IFRJ) e sou formado como técnico em Automação Industrial. As coisas que eu mais gosto de fazer no meu tempo livre são ver filmes/séries e jogar joguinhos.
+        </p>
+        <div class="row container">
+            <div class="col s12 m12 l12">
+              <div  class="card  light-blue lighten-4 z-depth-4">
+                <div class="card-image">
+                  <img src="imagens/unifei.jpg">
+                </div>
+                <div class="card-content">
+                  <p id="cardp">Esta é a Universidade Federal de Itajubá, no qual atualmente estou cursando Ciências da Computação</p>
+                </div>
+                <div id="curiosidades" class="card-action ">
+                  <a id="linkunifei" href="https://unifei.edu.br/">Site da Unifei</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <section id="section2">
+      <h1 id="h1curiosidades">
+        Curiosidades
+    </h1>
+        <div class="row">
+            <div class="col s6">
+          <ol> 
+            <li>Sou torcedor do Fluminense Football Club</li> 
+            <li>A série que mais gosto é Dark</li> 
+            <li>O melhor filme que eu acho é Shrek 2</li> 
+            <li>Atualmente jogo Brawl Stars, um jogo mobile</li> 
+          </ol>
+        </div>
+          <div class="col s6">
+            <ol> 
+              <li>Meu suco preferido é o de laranja</li> 
+              <li>Black Eyed Peas é minha banda favorita</li> 
+              <li>Amo pizza</li> 
+              <li>Toddy>Nescau</li> 
+            </ol>
+          </div>
+        </div>
+    </section>
+    <h1 id="carrosseltitulo">Algumas fotos minhas</h1>
+    <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="imagens/Carrossel 1.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="imagens/Carrossel 2.jpg"></a>
+        <a class="carousel-item" href="#three!"><img src="imagens/Carrossel 3.jpg"></a>
+        <a class="carousel-item" href="#four!"><img src="imagens/Carrossel 4.jpg"></a>
+        <a class="carousel-item" href="#five!"><img src="imagens/Carrossel 5.jpg"></a>
+        <a class="carousel-item" href="#six!"><img src="imagens/Carrossel 6.jpg"></a>
+      </div>
+</section>
+<footer id="redes" class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Obrigado por ler o site</h5>
+          <p class="grey-text text-lighten-4">Espero que tenha gostado de saber um pouco mais sobre mim, siga-me nas minhas redes sociais, os links estão ao lado.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links das minhas redes sociais:</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/antoniogomes.07/">Instagram</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/antoniosames">Facebook</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://twitter.com/tonimgomes27">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+    </div>
+  </footer>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.js"></script>
+      <script>$(".button-collapse").sideNav();</script>
+      <script>
+            $(document).ready(function(){
+      $('.parallax').parallax();
+    });
+      </script>
+      <script>
+              $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+      </script>
+  </body>
+</html>

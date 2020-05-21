@@ -1,0 +1,84 @@
+nav img{
+    width: 100px;
+}
+#corpo{
+    padding: 5rem;
+    background-color: rgba(0, 140, 165, 0.445);
+}
+#section1{
+    font-size: 1.6rem ;
+}
+h1{
+    text-align: center;
+}
+#section2{
+    font-size: 1.6rem ;
+}
+ol li{
+    list-style: circle;
+}
+.parallax-container {
+    height: 400px;
+  }
+#carrosseltitulo{
+    padding-top: 8rem;
+}
+#linkunifei{
+    color: tomato;
+}
+#imagemparallax{
+    background-color: unset ;
+}
+@media screen and (max-width: 700px){
+
+  #quemsoueu{
+      font-size: 3.0rem;
+  }
+  
+  #eup{
+      font-size: 1rem;
+  }
+  #cardp{
+      font-size: 1rem;
+  }
+  #h1curiosidades{
+      font-size: 3.0rem;
+  }
+  ol li{
+      font-size: 1rem;
+  }
+  #carrosseltitulo{
+      font-size: 3.0rem;
+  }
+  .parallax-container {
+    height: 350px;
+  }
+  
+}
+
+@media screen and (max-width: 1100px){
+    #corpo{
+        padding: 2rem;
+      }
+    
+      #quemsoueu{
+        font-size: 5.0rem;
+    }
+    
+    #eup{
+        font-size: 2rem;
+    }
+    #cardp{
+        font-size: 2rem;
+    }
+    #h1curiosidades{
+        font-size: 5.0rem;
+    }
+    ol li{
+        font-size: 2rem;
+    }
+    #carrosseltitulo{
+        font-size: 5.0rem;
+    }
+
+}
